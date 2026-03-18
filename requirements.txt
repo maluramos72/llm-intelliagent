@@ -1,0 +1,10 @@
+openai
+psycopg2-binary
+sqlalchemy
+pgvector
+pandas
+python-dotenv
+tqdm
+streamlit
+faiss-cpu
+numpy
