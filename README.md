@@ -39,9 +39,9 @@ Este proyecto implementa un asistente inteligente para Service Desk basado en LL
         ▼                 ▼                 ▼
 ┌──────────────┐  ┌──────────────┐  ┌──────────────┐
 
-│ classifier   │  │     rag      │  │ embeddings   │
+│ classifier   │    │     rag      │    │ embeddings   │
 
-│ (LLM)        │  │(RAG pipeline)│  │ ingestion    │
+│ (LLM)        │    │(RAG pipeline)│    │ ingestion    │
 
 └──────┬───────┘  └──────┬───────┘  └──────┬───────┘
 
@@ -49,9 +49,9 @@ Este proyecto implementa un asistente inteligente para Service Desk basado en LL
 
        ▼                 ▼                 ▼
 
-   OpenAI API       FAISS Index        PostgreSQL
+   OpenAI API         FAISS Index          PostgreSQL
 
-                    (vector search)    (storage)
+                    (vector search)        (storage)
 
 
 ---
@@ -158,8 +158,6 @@ llm-intelliagent/
 │   ├── embeddings.py
 
 │   ├── rag.py
-
-│   ├── utils.py
 
 │   └── app.py
 
