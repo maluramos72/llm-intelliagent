@@ -174,7 +174,7 @@ llm-intelliagent/
 
 1. Clonar repositorio
 
-    git clone <repo_url>
+    git clone  https://github.com/maluramos72/llm-intelliagent.git
 
     cd llm-intelliagent
 
